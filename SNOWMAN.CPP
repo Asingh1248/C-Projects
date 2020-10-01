@@ -65,16 +65,16 @@ if(j%2==0)
 setfillstyle(SOLID_FILL,WHITE);
 floodfill(280,135,15);
 floodfill(320,135,15);
-delay(100);
+delay(105);
 }
 ellipse(300,175,180,360,20,10); //mouth
 ellipse(300,215,180,360,50,20);
-ellipse(300,235,180,360,75,20);  //scraf
+ellipse(300,235,180,360,75,20);  //scarf
 setfillstyle(WIDE_DOT_FILL,14);
 floodfill(300,240,15);
 brescir(10,300,290);
 brescir(10,300,330);
-brescir(10,300,370); //button
+brescir(10,300,370);  //button
 line(215,250,160,200);
 line(160,215,176,215);
 line(176,215,176,195);	//left hand
@@ -87,9 +87,10 @@ for(int i = 0;i<1000;i++)
       b= rand()%600;
       putpixel(a,b,15);
 }
-delay(150);
+delay(145);
 }
 cout<<"\n\n\t\t\t\t  SNOWMAN using bresenham circle algorithm";
 getch();
 closegraph();
 }
+//An awesome Project
